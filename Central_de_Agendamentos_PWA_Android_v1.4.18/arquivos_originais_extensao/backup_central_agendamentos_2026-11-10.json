@@ -1,0 +1,152 @@
+{
+  "app": "Central de Agendamentos - Roundcube",
+  "version": "1.4.13",
+  "exportedAt": "2026-11-10T08:14:56.489Z",
+  "data": {
+    "appointments": [],
+    "vacations": [
+      {
+        "days": 30,
+        "id": "6e562eaf-3c1f-41d0-b521-4d8824bce7c9",
+        "name": "André Abel",
+        "notes": "Cobertura: Renildo Coelho",
+        "startDate": "2026-11-13",
+        "workPost": "Jorge Rizkallah"
+      },
+      {
+        "days": 30,
+        "id": "689e5429-cdc8-46b2-afab-facd8be57d16",
+        "name": "Isaias Monteiro",
+        "notes": "Não precisa de cobertura",
+        "startDate": "2026-11-28",
+        "workPost": "Plantão"
+      },
+      {
+        "days": 30,
+        "id": "e892ee21-07b3-4321-a23e-b5e878522633",
+        "name": "Valter Odilon",
+        "notes": "Cobertura: Ris da Paz",
+        "startDate": "2026-11-09",
+        "workPost": "Jorge Rizkallah"
+      },
+      {
+        "days": 30,
+        "id": "efd386fd-4faa-4b39-a1a0-d82769b38ecf",
+        "name": "Severino Antônio",
+        "notes": "Cobertura: Luis Alves",
+        "startDate": "2026-11-12",
+        "workPost": "Ed. 25 de Março"
+      },
+      {
+        "days": 30,
+        "id": "d663f29e-27ea-40e8-9c32-5eccd06dc807",
+        "name": "Everton Luis",
+        "notes": "Cobertura: José Mauro",
+        "startDate": "2026-11-16",
+        "workPost": "Ed. 25 de Março"
+      }
+    ],
+    "recyclings": [
+      {
+        "coverage": "Renato Espedito",
+        "date": "2026-11-09",
+        "id": "e9c96423-cf95-4ec5-99e9-7d793623b4e2",
+        "name": "Cosme Alves",
+        "notes": "Cobertura em condições FT \nDias 09/11, 11/11 e 13/11/2026.",
+        "type": "F.T.",
+        "workPost": "Ed Maison"
+      },
+      {
+        "coverage": "José Durval e Ricardo Teixeira",
+        "date": "2026-11-09",
+        "id": "da1d1b1d-1ad5-4aec-9451-8b24edaadb4e",
+        "name": "Wargues Vieira",
+        "notes": "",
+        "type": "F.T.",
+        "workPost": "Aricanduva"
+      }
+    ],
+    "asos": [
+      {
+        "coverage": "Falta definir",
+        "deadlineDate": "2026-11-18",
+        "id": "3d325b8a-5600-490a-ab47-d51ca966794b",
+        "name": "João Evangelista",
+        "notes": "",
+        "programmedDate": "2026-11-13",
+        "workPost": "Mario Roberto"
+      },
+      {
+        "coverage": "Não Precisa",
+        "deadlineDate": "2026-11-23",
+        "id": "d7f99983-cccf-45ab-a71d-c4b331b45c33",
+        "name": "Cosme de Jesus",
+        "notes": "",
+        "programmedDate": "2026-11-20",
+        "workPost": "Maison Catherine"
+      },
+      {
+        "coverage": "Não Precisa",
+        "deadlineDate": "2026-11-23",
+        "id": "366ae453-f1c3-4a80-968f-7d91e661dece",
+        "name": "Hermes Tadeu",
+        "notes": "",
+        "programmedDate": "2026-11-20",
+        "workPost": "Aricanduva"
+      },
+      {
+        "coverage": "Não Precisa",
+        "deadlineDate": "2026-12-01",
+        "id": "5e2ba262-88e7-4704-bcb2-68a85b35b1af",
+        "name": "Heronides José Silva",
+        "notes": "",
+        "programmedDate": "2026-11-27",
+        "workPost": "Cond. Morumbi"
+      },
+      {
+        "coverage": "Não Precisa",
+        "deadlineDate": "2026-12-03",
+        "id": "8b9aeffb-0a7b-4523-ae17-cb1d7232a56b",
+        "name": "Noé Gabriel",
+        "notes": "",
+        "programmedDate": "2026-11-27",
+        "workPost": "Carrão"
+      },
+      {
+        "coverage": "Falta definir",
+        "deadlineDate": "2026-12-03",
+        "id": "62dcb349-0b09-49b7-a875-274a820c6639",
+        "name": "Paulo Henrique Leonardo",
+        "notes": "",
+        "programmedDate": "2026-11-27",
+        "workPost": "Abrac"
+      },
+      {
+        "coverage": "Não Precisa",
+        "deadlineDate": "2026-12-10",
+        "id": "ca6e9036-9c32-4eff-8529-218ba6e2c455",
+        "name": "Renildo Coelho",
+        "notes": "",
+        "programmedDate": "2026-12-04",
+        "workPost": "Plantão"
+      }
+    ],
+    "absences": [],
+    "swapDays": [
+      {
+        "agreedBy": "Ubiratan Pereira",
+        "agreedDayOff": "2026-12-07",
+        "agreedDayWork": "2026-11-22",
+        "createdAt": "2026-11-10T04:39:20.452Z",
+        "dayOff": "2026-11-22",
+        "dayWork": "2026-12-07",
+        "decision": "Pendente",
+        "id": "1590bbfd-9036-4954-b2fc-561bb980bd0f",
+        "notes": "",
+        "requester": "Marcio Lopes",
+        "workPost": "Aricanduva"
+      }
+    ],
+    "otherAppointments": []
+  }
+}

@@ -1,0 +1,29 @@
+CENTRAL DE AGENDAMENTOS — APLICATIVO WEB INSTALÁVEL (PWA)
+Versão 1.4.18 PWA
+
+O QUE ESTA VERSÃO FAZ
+- Abre como aplicativo em tela própria, com ícone na tela inicial.
+- Mantém os módulos existentes: Agendamentos, Troca de Folga, Reciclagem, Férias, Exame ASO, Atestado/Afastamento e Outros Agendamentos.
+- Mantém edição, exclusão, filtros, indicadores, cálculo de retorno, backup e importação JSON.
+- Restaura automaticamente, na primeira abertura e somente se o armazenamento estiver vazio, os dados do backup de 11/11/2026 fornecido no pacote.
+- Guarda os dados localmente no aparelho usando IndexedDB.
+- Possui cache offline do aplicativo depois do primeiro acesso.
+- Permite solicitar notificações. Os avisos são verificados enquanto o aplicativo está aberto/em uso; o navegador pode suspender verificações quando o app estiver fechado.
+
+IMPORTANTE SOBRE OS DADOS JÁ EXISTENTES
+O armazenamento da extensão Chrome/Edge e o armazenamento do aplicativo web são isolados pelo navegador. Por segurança, o PWA NÃO apaga nem tenta ler os dados privados da extensão.
+Antes de migrar: abra a extensão no computador, clique em Backup e salve o JSON. Depois abra o PWA no celular, clique em Importar e selecione esse JSON. O backup de 11/11/2026 está incluído como backup_inicial_para_importar.json e é restaurado automaticamente apenas na primeira abertura se não houver dados locais. Os demais backups originais também estão preservados em arquivos_originais_extensao/. Se houver registros mais recentes na extensão do que os do backup incluído, exporte o backup atual na extensão e importe-o no PWA; a importação manual substitui os registros atuais após confirmação.
+
+COMO PUBLICAR PARA INSTALAR NO ANDROID
+1. Hospede TODO o conteúdo desta pasta em um endereço HTTPS (por exemplo, hospedagem estática própria ou GitHub Pages).
+2. Não renomeie nem retire app.js, sw.js, manifest.webmanifest ou a pasta icons.
+3. No Android, abra o endereço HTTPS no Microsoft Edge.
+4. Abra o menu ⋯ e escolha "Adicionar ao telefone" / "Instalar aplicativo" (o texto varia por versão).
+5. Confirme. O ícone Central de Agendamentos será adicionado à tela inicial.
+6. Abra o ícone e use Backup/Importar para restaurar seus dados.
+
+TESTE LOCAL
+Service workers e instalação PWA exigem HTTPS (exceto localhost). Abrir index.html diretamente pelo gerenciador de arquivos não instala o PWA nem ativa o modo offline.
+
+PRIVACIDADE
+Os registros ficam no armazenamento local do navegador/aplicativo neste aparelho. Limpar os dados do site/navegador pode apagar os registros; faça backups regulares. Esta versão não sincroniza automaticamente entre aparelhos.

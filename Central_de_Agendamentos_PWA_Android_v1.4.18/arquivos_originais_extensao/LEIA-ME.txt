@@ -1,0 +1,145 @@
+ATUALIZAÇÃO — RECICLAGEM DE 5 DIAS E DESTAQUE EM ANDAMENTO\n- A data final da reciclagem é calculada automaticamente: 5 dias corridos contando a data inicial.\n- A data final aparece na aba Reciclagem e na linha do tempo da Agenda.\n- Situações Em Andamento recebem destaque em negrito.\n\nVERSÃO 1.4.15 — NOMES ATUALIZADOS NA ABA AGENDAMENTOS
+As datas de folga e de trabalho das solicitações de Troca de Folga agora aparecem na Agenda em ordem cronológica, junto aos demais compromissos. Cada data mostra os dados da solicitação e permite editar ou excluir o registro. As duas datas também são consideradas nos filtros e indicadores da Agenda e no aviso do próximo agendamento.
+
+CENTRAL DE AGENDAMENTOS - ROUNDcube / KINGHOST
+Versão 1.4.17 (compatibilidade visual móvel)
+
+INSTALAÇÃO NO GOOGLE CHROME
+1. Extraia o arquivo ZIP para uma pasta do computador.
+2. Abra o Google Chrome e digite: chrome://extensions
+3. Ative "Modo do desenvolvedor" no canto superior direito.
+4. Clique em "Carregar sem compactação".
+5. Selecione a pasta extraída "central_agendamentos_roundcube".
+6. Abra ou atualize https://webmail.kinghost.com.br/roundcube/
+7. O botão "📅 Agendamentos" aparecerá no canto inferior direito.
+
+USO
+- Clique em Agendamentos para abrir o painel.
+- Use "Novo" para cadastrar compromissos.
+- Os agendamentos são guardados localmente no perfil do Chrome.
+- Use os filtros Hoje, 7 dias, Pendentes e Concluídos.
+
+PRIVACIDADE E LIMITAÇÕES
+- A extensão não lê, envia, apaga, move nem altera mensagens.
+- Não solicita senha e não se conecta ao servidor IMAP/SMTP.
+- Os dados da agenda ficam no armazenamento local da extensão no Chrome.
+- Alertas são verificados enquanto o Chrome estiver em execução.
+- O alerta do Chrome depende das permissões/notificações do sistema operacional.
+- A versão inicial não sincroniza dados entre computadores.
+- O painel é uma sobreposição visual independente. A KingHost/Roundcube não foi modificada.
+- Teste primeiro em uma sessão comum do webmail. A aparência do Roundcube pode variar conforme o tema e a versão.
+
+DESINSTALAÇÃO
+Em chrome://extensions, localize a extensão e clique em Remover.
+A remoção da extensão pode apagar os dados locais associados; exporte/registre seus compromissos antes de removê-la.
+
+SUPORTE / PRÓXIMAS MELHORIAS
+Esta é uma primeira versão funcional. Pode ser ampliada com exportação/importação de agenda,
+visualização mensal, sincronização e configuração individual dos horários de aviso.
+
+
+NOVA FUNÇÃO - CONTROLE DE FÉRIAS
+- Abra a aba "Férias" na Central de Agendamentos.
+- Informe o funcionário, a data de saída e selecione 20 ou 30 dias.
+- Informe também o Posto de trabalho do funcionário.
+- A agenda principal mostra compromissos, início das férias e retorno em uma única linha do tempo cronológica.
+- O sistema calcula automaticamente a data de retorno.
+- Alertas: no dia da saída, 7, 3 e 1 dia antes do retorno e no próprio dia do retorno. As notificações também identificam o posto de trabalho.
+- Mantenha o Chrome em execução e permita notificações para receber os avisos.
+
+
+ATUALIZAÇÃO 1.1.0
+- Visualização integrada de compromissos, saídas de férias e retornos na aba Agenda.
+- Campo obrigatório Posto de trabalho no cadastro de férias.
+- O posto aparece na agenda e nos alertas de férias.
+- Correção do salvamento e carregamento dos cadastros de férias no armazenamento local.
+
+
+NOVA FUNÇÃO - CONTROLE DE RECICLAGEM (1.2.0)
+- Nova aba "Reciclagem" para cadastrar, editar e excluir reciclagens.
+- Campos obrigatórios: Funcionário, Data, Posto de trabalho, Cobertura e modalidade Normal ou F.T.
+- Os registros de reciclagem aparecem também na agenda principal, em ordem cronológica, respeitando os filtros de período.
+- O Chrome exibe uma notificação no dia da reciclagem (com funcionário, posto, cobertura e modalidade).
+
+
+ATUALIZAÇÃO 1.2.2 - CONTADORES DA AGENDA
+- Os indicadores Hoje e Próximos agora incluem compromissos, saída e retorno de férias e reciclagens.
+- O indicador Atrasados inclui compromissos pendentes e reciclagens com data passada.
+- Saídas e retornos de férias que já ocorreram são tratados como histórico, não como atrasos.
+
+ATUALIZAÇÃO 1.2.4 - REMOÇÃO DA ABA E-MAIL
+- A aba E-mail foi removida da interface.
+- Permanecem as abas Agenda, Férias e Reciclagem.
+- Os compromissos, férias, reciclagens, alertas e dados locais foram preservados.
+
+
+ATUALIZAÇÃO 1.2.6 - ASSINATURA NO RODAPÉ
+A assinatura foi ajustada para “Desenvolvedor: Rubens Gilson”, com maior destaque, em negrito e itálico, mantendo sua posição no rodapé do painel.
+
+
+VERSÃO 1.3.0 - NOVO MÓDULO EXAME ASO
+- Nova aba Exame ASO com funcionário, data programada, data limite, posto, cobertura e observações.
+- Datas programada e limite integradas à agenda e aos contadores Hoje, Próximos e Atrasados.
+- Alertas para as datas do exame e prazo limite, incluindo lembretes de 7, 3 e 1 dia e aviso de prazo vencido.
+- Campo Observações adicionado ao cadastro de Reciclagem.
+
+
+ATUALIZAÇÃO 1.4.1 - AÇÕES DIRETAS NA AGENDA
+- Todos os itens exibidos na aba Agenda agora possuem opções de editar e excluir.
+- Compromissos mantêm também a opção Concluir.
+- Férias, reciclagens e exames ASO podem ser editados ou excluídos diretamente na linha do tempo, sem precisar localizar o cadastro na aba específica.
+
+
+VERSÃO 1.4.1
+- Mantém a aba Agenda original.
+- Adiciona a aba Atestado/Afastamento com cálculo automático da data de retorno.
+- Mantém Férias, Reciclagem e Exame ASO.
+- Os registros de atestados são salvos separadamente no armazenamento local.
+
+
+VERSÃO 1.4.3 — AJUSTES VISUAIS
+- Janela ampliada somente na altura (aproximadamente 2 cm em telas com espaço disponível); largura preservada.
+- Botão flutuante “Agendamentos” fica oculto enquanto a janela está aberta e reaparece ao fechar.
+
+
+VERSÃO 1.4.6 — DIMENSÕES E BACKUP
+- Janela ampliada em aproximadamente 0,5 cm na altura e 1 cm na largura (em relação à versão 1.4.3).
+- Incluídos os botões Backup e Importar no cabeçalho.
+- O backup exporta todos os registros em arquivo JSON.
+- A importação valida o arquivo e solicita confirmação antes de substituir os registros atuais.
+
+Versão 1.4.6: ao entrar no webmail, exibe um aviso breve com o próximo evento futuro cadastrado na agenda.
+
+Versão 1.4.6: corrigido o botão de fechar do aviso do próximo agendamento. O aviso também fecha automaticamente após 10 segundos e não reaparece durante a mesma sessão.
+
+
+VERSÃO 1.4.8 — CORREÇÃO DE CLIQUES NO WEBMAIL
+- O contêiner fixo e transparente da extensão deixou de capturar cliques fora do painel.
+- Apenas o botão flutuante e a janela de Agendamentos recebem eventos de ponteiro.
+- Mantidas as funcionalidades e os dados da versão enviada pelo usuário (1.4.6).
+
+
+Versão 1.4.15: campos da Agenda renomeados para Local/Posto/Cliente/Outros e Nome do Agendado. Incluída a aba Troca de Folga com cadastro, edição, exclusão, decisão de autorização e inclusão no backup/importação.
+
+
+Versão 1.4.15: adicionada a aba Outros Agendamentos com cadastro de Novo Compromisso, Data, Hora, Local do Compromisso, Detalhes do Compromisso e Observações. Os registros também aparecem na aba Agendamentos em ordem cronológica, entram nos indicadores e no aviso de próximo compromisso, e são incluídos no backup/importação.
+
+
+VERSÃO 1.4.17 — ADAPTAÇÃO VISUAL PARA CELULARES
+- Painel responsivo para telas Android estreitas e altas.
+- Botões e abas com áreas de toque maiores.
+- Campos de formulário dimensionados para evitar zoom automático do navegador.
+- Formulários em coluna única em telas pequenas.
+- Respeito à área segura inferior do aparelho e suporte a altura dinâmica da tela.
+- A versão para computador mantém o layout anterior.
+- Funcionalidades, nomes das chaves de armazenamento e formato JSON de backup/importação foram preservados.
+
+USO NO MICROSOFT EDGE PARA ANDROID — ATENÇÃO
+Esta pasta contém a extensão Chromium Manifest V3 adaptada para telas móveis. Isso não significa que ela possa ser instalada diretamente em qualquer Edge Android:
+- O Edge Android distribui extensões por um catálogo móvel controlado pela Microsoft; extensões particulares não estão automaticamente disponíveis nesse catálogo.
+- O Edge Android estável não oferece o mesmo fluxo de "Carregar sem compactação" disponível no Edge para computador.
+- Portanto, o pacote não deve ser tratado como instalável diretamente no Edge Android estável sem que a Microsoft disponibilize a extensão no catálogo móvel ou habilite um método oficial compatível.
+- Não recomendamos instalar CRX/APK de fontes desconhecidas nem usar opções experimentais não documentadas.
+
+Para testar a interface móvel, abra o Roundcube no Edge Android e confirme se a extensão está instalada e autorizada para o domínio https://webmail.kinghost.com.br/roundcube/.
+As notificações em Android dependem das permissões do Edge e das restrições de execução em segundo plano do próprio Android; o sistema pode suspender verificações quando o navegador é encerrado ou restringido pela economia de bateria.

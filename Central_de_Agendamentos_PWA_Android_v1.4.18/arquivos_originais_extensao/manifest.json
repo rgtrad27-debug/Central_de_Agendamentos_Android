@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Central de Agendamentos - Roundcube",
+  "version": "1.4.17",
+  "description": "Painel independente do webmail com agenda, troca de folga, atestados, afastamentos, férias, reciclagens e exames ASO.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://webmail.kinghost.com.br/roundcube/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://webmail.kinghost.com.br/roundcube/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Central de Agendamentos"
+  }
+}

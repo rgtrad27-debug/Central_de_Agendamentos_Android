@@ -1,0 +1,12 @@
+{
+  "app": "Central de Agendamentos - Roundcube",
+  "version": "1.4.4",
+  "exportedAt": "2026-11-08T21:02:50.410Z",
+  "data": {
+    "appointments": [],
+    "vacations": [],
+    "recyclings": [],
+    "asos": [],
+    "absences": []
+  }
+}
